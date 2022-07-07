@@ -1,0 +1,101 @@
+<mat-list-item>Personal</mat-list-item>
+<!-- DASHBOARD -->
+<mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+    <mat-expansion-panel-header class="dashboard-title">
+        <mat-icon id="dash-icon">av_timer</mat-icon>
+        Dashboard
+    </mat-expansion-panel-header>
+    <mat-panel-description *ngFor="let dashboard of Dashboard" 
+        routerLinkActive="active" routerLink={{dashboard.router}}>
+        {{dashboard.name}}
+    </mat-panel-description>
+</mat-expansion-panel>
+
+<!-- APPS -->
+<mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+  <mat-expansion-panel-header class="dashboard-title">
+        <mat-icon id="dash-icon">apps</mat-icon>
+        Apps
+        <span class="label label-warning ng-star-inserted">new</span>
+    </mat-expansion-panel-header>
+    <mat-panel-description *ngFor="let app of Apps">
+        {{app.name}}
+    </mat-panel-description>
+</mat-expansion-panel>
+
+<!-- APPS -->
+<mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+    <mat-expansion-panel-header class="dashboard-title">
+        <mat-icon id="dash-icon">bubble_chart</mat-icon>
+        Material UI
+        <span class="label label-danger ng-star-inserted">17</span>
+    </mat-expansion-panel-header>
+    <mat-panel-description *ngFor="let mui of MaterialUI">
+        {{mui.name}}
+    </mat-panel-description>
+ </mat-expansion-panel>
+
+ <!-- TREE -->
+<mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" class="mat-elevation-z0">
+    <mat-expansion-panel-header class="dashboard-title">
+        <mat-icon id="dash-icon">brightness_7</mat-icon>
+        Trees
+    </mat-expansion-panel-header>
+    <mat-panel-description *ngFor="let tree of Tree">
+        {{tree.name}}
+    </mat-panel-description>
+ </mat-expansion-panel>
+
+
+<mat-list-item>Forms, Table & Widgets</mat-list-item>
+<!-- FORMS -->
+<mat-expansion-panel>
+    <mat-expansion-panel-header class="dashboard-title">
+        <mat-icon id="dash-icon">insert_drive_file</mat-icon>
+        Forms
+    </mat-expansion-panel-header>
+</mat-expansion-panel>
+
+<!-- TABLES -->
+<mat-expansion-panel>
+  <mat-expansion-panel-header class="dashboard-title">
+        <mat-icon id="dash-icon">web</mat-icon>
+        Tables
+    </mat-expansion-panel-header>
+</mat-expansion-panel>
+
+<!-- DATA TABLES -->
+<mat-expansion-panel class="mat-elevation-z0">
+    <mat-expansion-panel-header class="dashboard-title">
+          <mat-icon id="dash-icon">border_all</mat-icon>
+          Data Tables
+      </mat-expansion-panel-header>
+  </mat-expansion-panel>
+
+
+<mat-list-item>Extra Component</mat-list-item>
+<!-- AUTHENTICATION -->
+<mat-expansion-panel>
+    <mat-expansion-panel-header class="dashboard-title">
+        <mat-icon id="dash-icon">perm_contact_calendar</mat-icon>
+        Authentication
+    </mat-expansion-panel-header>
+</mat-expansion-panel>
+
+<!-- PAGES -->
+<mat-expansion-panel>
+  <mat-expansion-panel-header class="dashboard-title">
+        <mat-icon id="dash-icon">content_copy</mat-icon>
+        Pages
+    </mat-expansion-panel-header>
+</mat-expansion-panel>
+
+<!--MENU LEVELS -->
+<mat-expansion-panel class="mat-elevation-z0">
+    <mat-expansion-panel-header class="dashboard-title">
+          <mat-icon id="dash-icon">star</mat-icon>
+          Menu Levels
+      </mat-expansion-panel-header>
+  </mat-expansion-panel>
+
+ 

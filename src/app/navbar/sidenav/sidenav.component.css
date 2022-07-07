@@ -1,0 +1,54 @@
+mat-sidenav{
+  margin-top: 64px;
+  width: 18%;
+  background-color: rgb(29, 35, 46);
+  color: rgb(192, 189, 189);
+  font-family: 'Poppins';
+  font-size: medium;
+}
+
+mat-nav-list {
+  color: rgb(192, 189, 189);
+}
+
+::ng-deep .mat-drawer-inner-container{
+  scrollbar-width: none;
+  overflow: hidden;
+}
+
+::ng-deep .mat-drawer-inner-container:hover{
+  scrollbar-width: 10px; 
+  scroll-behavior: smooth;
+  overflow: visible;
+}
+
+.card-img {
+  background-image: url('https://cdn.dribbble.com/users/3949861/screenshots/14199173/dribbble_4x.jpg');
+  background-repeat: no-repeat;
+  background-size: 250px 150px;
+  height: 25%;
+  border-radius: 0%;
+}
+
+img {
+  animation: 2.5s blow 0s linear infinite;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  top: 31px;
+  left: 20px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+span {
+    color: rgb(192, 189, 189);
+}
+
+span:hover {
+    color: white;
+}
+
+.top-nav{
+  margin-left: 50px;
+}

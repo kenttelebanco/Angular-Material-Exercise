@@ -1,0 +1,59 @@
+.top-nav-left{
+    background-color: rgb(40, 142, 201);
+}
+
+.search-nav{
+    background-color: white;
+    color: grey;
+    text-decoration: none;
+}
+
+.top-nav-right{
+    right: 0;
+    float: right;
+    position: absolute;
+    margin-right: 35px;
+    color: white;
+}
+
+.nav-title{
+    color: white;
+    text-decoration: none;
+    font-size:medium;
+    margin-left: 25px;
+}
+
+.search-form{
+    width: 99%;
+}
+
+mat-form-field{
+    width: 99%;
+    text-decoration: none;
+    box-shadow: none;
+    border-bottom: none;
+    outline: none;
+}
+
+input{
+    text-decoration: none;
+    box-shadow: none;
+    border-bottom: none;
+    outline: none;
+}
+
+.menu-icons{
+    margin-left: 6%;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.example-icon{
+    margin-left: 15px;
+}
+
+

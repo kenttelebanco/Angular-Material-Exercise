@@ -1,0 +1,26 @@
+.example-icon{
+    margin-left: 15px;
+}
+
+.mat-button-wrapper{
+    position: absolute;
+    top: 13px;
+    right: 97%;
+}
+
+.menu-icons{
+    margin-left: 6%;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+

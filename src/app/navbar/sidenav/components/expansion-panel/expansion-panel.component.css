@@ -1,0 +1,64 @@
+mat-expansion-panel{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: rgb(29, 35, 46);
+    color: rgb(192, 189, 189);
+}
+  
+mat-expansion-panel:hover {
+    background-color:rgb(96, 197, 240);  
+    color: white;
+}
+  
+::ng-deep .mat-expansion-panel-body {
+    background-color: rgb(29, 35, 46);
+    color: rgb(192, 189, 189);
+}
+  
+mat-panel-description {
+   padding: 10px;
+   color: rgb(192, 189, 189);
+   cursor: pointer; 
+}
+  
+mat-panel-description:hover {
+    color: white;
+  }
+
+#dash-icon {
+    margin-right: 10px;
+}
+  
+.mat-divider {
+    border-top-color: rgb(73, 73, 73);
+}
+  
+.label-warning {
+    position: absolute;
+    right: 0;
+    margin-right: 20%;
+    background-color: #ffb22b;
+}
+  
+.label-danger {
+    position: absolute;
+    right: 0;
+    margin-right: 20%;
+    background-color: #ce2828;
+}
+  
+.label {
+    padding: 3px 10px;
+    line-height: 13px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 4px;
+    font-size: 75%;
+}
+
+.mat-list-item {
+    color: rgb(192, 189, 189);
+    font-size: small;
+
+}

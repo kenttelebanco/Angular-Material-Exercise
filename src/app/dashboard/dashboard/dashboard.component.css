@@ -1,0 +1,22 @@
+mat-toolbar {
+    background-color: rgb(46, 54, 69);
+    color: rgb(192, 189, 189);
+    font-family: 'Poppins';
+    font-size: medium;
+}
+
+.dash-directory {
+    right: 0;
+    float: right;
+    position: absolute;
+    padding-right: 25px;
+}
+
+.dash-title{
+    color: white;
+}
+
+.dash-prev{
+    color: rgb(66, 112, 239);
+    cursor: pointer;
+}

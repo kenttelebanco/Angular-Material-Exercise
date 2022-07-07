@@ -1,0 +1,26 @@
+<div class="profile-text" [matMenuTriggerFor]="menu">
+    <span class="profile-menu" [matMenuTriggerFor]="menu">Menu</span>
+    <mat-icon class="profile-icon">expand_more</mat-icon>
+    <mat-menu #menu="matMenu">
+
+        <mat-panel-description class="dashboard-title">
+            <mat-icon id="dash-icon">settings</mat-icon>
+            Settings
+        </mat-panel-description>
+
+        <mat-panel-description class="dashboard-title">
+            <mat-icon id="dash-icon">account_box</mat-icon>
+            Profile
+        </mat-panel-description>
+
+        <mat-panel-description class="dashboard-title">
+            <mat-icon id="dash-icon">notifications_off</mat-icon>
+            Disable Notifications
+        </mat-panel-description>
+
+        <mat-panel-description class="dashboard-title">
+            <mat-icon id="dash-icon">exit_to_app</mat-icon>
+            Sign Out
+        </mat-panel-description> 
+    </mat-menu> 
+</div>

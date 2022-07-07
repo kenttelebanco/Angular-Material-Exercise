@@ -1,0 +1,22 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" opened="true" [fixedInViewport]="true" *ngIf="!showMenu">
+
+    <div class="card-img p-0">
+
+      <img id="profile-pic"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ0FpBg5Myb9CQ-bQpFou9BY9JXoRG6208_Q&usqp=CAU" alt="user">
+
+      <profile-menu></profile-menu>
+
+    </div>
+
+      <mat-nav-list>
+
+        <expansion-panel></expansion-panel>
+
+      </mat-nav-list>
+
+    </mat-sidenav>
+
+  <router-outlet></router-outlet>
+
+</mat-sidenav-container>

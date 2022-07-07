@@ -1,0 +1,29 @@
+<mat-toolbar>
+  <mat-toolbar-row class="search-nav" *ngIf="showSearch">
+    <form class="search-form">
+      <mat-form-field class="search-field mt-2" floatLabel="never" placeholder="Search" name="search">
+        <input matInput placeholder="Search & Enter">
+      </mat-form-field>
+      <span class="close-icon" (click)="toggleSearch()"> 
+        <mat-icon class="nav-close" matBadge="5">close</mat-icon>
+      </span>
+    </form>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row class="top-nav-left" *ngIf="!showSearch">
+      <h2 href="" class="nav-title"><b>MATERIAL</b>PRO</h2>
+
+      <div class="menu-icons">
+      <span class="example-icon" (click)="toggleMenu()"> 
+          <mat-icon class="nav-menu"  matBadge="15" matTooltip="Sidebar">menu</mat-icon>
+      </span>
+    <span class="example-icon" (click)="toggleSearch()">
+        <mat-icon class="nav-search"  matBadge="15" matTooltip="Search & enter">search</mat-icon>
+    </span>
+  </div>
+
+  <div class="top-nav-right">
+    <menu-icons></menu-icons>
+</div>
+  </mat-toolbar-row>
+</mat-toolbar>
