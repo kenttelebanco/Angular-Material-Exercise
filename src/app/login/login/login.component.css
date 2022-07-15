@@ -1,0 +1,71 @@
+mat-card {
+    margin: 6% 0 0 37%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+mat-card.app-login {
+  width: 25%;
+  height: 58%;
+}
+
+mat-card.app-register {
+  width: 25%;
+  height: 70%;
+}
+
+mat-card.app-recover {
+  width: 25%;
+  height: 40%;
+}
+  
+mat-form-field {
+    padding: 10px 10px 0 10px;
+    display: block;
+    text-decoration: none;
+    font-size: large;
+}
+
+mat-checkbox{
+  padding-right: 5em;
+}
+
+button {
+  width: 90%;
+  padding: 6px;
+  margin: 5% 0 0 0;
+}
+
+header {
+  margin-top: 10%;
+  font-size:larger;
+}
+
+.link-primary{
+  cursor: pointer;
+  color: rgb(39, 126, 240);
+}
+
+.forgot-pwd{
+  text-decoration: none;
+  color: rgb(45, 48, 63);
+}
+
+.login-page {
+  background: linear-gradient(rgba(37, 36, 36, 0.5), rgba(37, 36, 36, 0.5)), url("https://media.istockphoto.com/photos/put-more-in-get-more-out-picture-id1291318636?k=20&m=1291318636&s=612x612&w=0&h=9W9vtNNYd8LHNeeM5_z8MUYX_HEKmbWIt6yU7wPoxrA=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.submenu{
+  display: flex;
+  padding: 0 10px 0 11px;
+  font-size:medium
+}
+
+.register {
+  font-size:medium
+}
+
+

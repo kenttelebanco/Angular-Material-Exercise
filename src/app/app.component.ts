@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angluar_material01';
-
-  subMenuState:boolean = false;
-  routerClicked(evnt: boolean){
-    this.subMenuState = evnt;
-  }
 }

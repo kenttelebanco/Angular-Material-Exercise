@@ -15,8 +15,8 @@ export class ExpansionPanelComponent implements OnInit {
   }
 
   Dashboard: Dashboard[] =[ 
-    {name:'Dashboard 1', router:'/dashboard1'},  
-    {name:'Dashboard 2', router:'/dashboard2'},  
+    {name:'Dashboard 1', router:'dashboard1'},  
+    {name:'Dashboard 2', router:'dashboard2'},  
   ]
   
   Apps: Apps[] =[  

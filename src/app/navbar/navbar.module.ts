@@ -10,8 +10,9 @@ import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { AppRoutingModule } from '../app-routing.module';
 import { AppComponent } from '../app.component';
-import { NavbarRoutingModule } from './navbar.routing.module';
+import { HomescreenComponent } from '../homescreen/homescreen/homescreen.component';
 import { ExpansionPanelComponent } from './sidenav/components/expansion-panel/expansion-panel.component';
 import { ProfileMenuComponent } from './sidenav/components/profile-menu/profile-menu.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
@@ -22,12 +23,13 @@ import { TopnavComponent } from './topnav/topnav.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TopnavComponent,
-    SidenavComponent,
-    ProfileMenuComponent,
-    ExpansionPanelComponent,
-    MenuIconsComponent 
+  HomescreenComponent,
+  TopnavComponent,
+  SidenavComponent,
+  ProfileMenuComponent,
+  ExpansionPanelComponent,
+  MenuIconsComponent,
+  AppComponent 
   ],
 
   imports: [
@@ -42,7 +44,8 @@ import { TopnavComponent } from './topnav/topnav.component';
     MatCardModule,
     MatMenuModule,
     MatExpansionModule,
-    NavbarRoutingModule,
+    AppRoutingModule,
+
   ],
   exports: [],
   providers:[]
